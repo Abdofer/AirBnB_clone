@@ -2,33 +2,38 @@
 ![AirBnB Logo](https://www.pngitem.com/pimgs/m/132-1322125_transparent-background-airbnb-logo-hd-png-download.png)
 
 ## Project Description
-This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
+This is the first part of the AirBnB clone project where we worked on the backend of the project while interfacing it with a console application using the cmd module in Python.
 
-Data (python objects) generated are stored in a json file and can be accessed with the help of the json module in python
+Generated data (Python objects) are stored in a JSON file and can be accessed using the JSON module in Python.
 
-## Description of the command interpreter:
-The interface of the application is just like the Bash shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
+## Description of the Command Interpreter:
+The application's interface resembles the Bash shell but supports a limited number of predefined commands designed specifically for the AirBnB website's usage.
 
-This command line interpreter  serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
+The command line interpreter serves as the frontend of the web app, enabling users to interact with the backend developed using Python's OOP programming.
 
-Some of the commands available are:
-- show
-- create
-- update
-- destroy
-- count
+Supported commands include:
+- `show`
+- `create`
+- `update`
+- `destroy`
+- `count`
 
-And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
--   Creating new objects (ex: a new User or a new Place)
--   Retrieving an object from a file, a database etc…
--   Doing operations on objects (count, compute stats, etc…)
--   Updating attributes of an object
--   Destroying an object
+This implementation of the command line interpreter, combined with the backend and file storage system, supports various actions:
+- Creating new objects (e.g., a new User or a new Place)
+- Retrieving objects from files, databases, etc.
+- Performing operations on objects (counting, computing stats, etc.)
+- Updating object attributes
+- Destroying objects
 
+## Additional Feature: Search Command
+We've introduced an additional command, `search`, to the command interpreter. This command lets users search for specific objects based on specified criteria, enhancing the interaction with the data.
 
+To use the `search` command, enter the following in the command interpreter:
+search <class_name> <attribute_name> <attribute_value>
 
-## Author
+bash
+Copy code
+This command will return a list of objects that match the search criteria.
 
-Anas KHEIREDDINE
-Abderrazaq FERMAQ
-
+## Authors
+Anas KHEIREDDINE & Abderrazaq FERMAQ
